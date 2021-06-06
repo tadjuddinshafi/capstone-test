@@ -1,0 +1,41 @@
+
+<!doctype html>
+<title>Skin Predicition</title>
+<h2>Select a image file to upload and predict ...</h2>
+
+<form method="post" action="/" enctype="multipart/form-data">
+    <dl>
+      <p>
+        <input type="file" name="file" autocomplete="off" required onchange="loadFile(event)">
+      </p>
+    </dl>
+    
+    <p>
+      <img id="output"/>
+    </p>
+    
+    <p>  
+      <input type="submit" value="Predict">
+    </p>
+    
+  </form>     
+
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}        
+        This skin probably {{ messages[0] }}%
+        {{ messages[1] }} type.
+        <br>
+	  {% endif %}    
+	{% endwith %}
+</p>
+
+<script>
+  var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function() {
+      URL.revokeObjectURL(output.src) // free memory
+    }
+  };
+</script>
