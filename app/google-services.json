@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1070786967774",
+    "project_id": "precise-treat-315110",
+    "storage_bucket": "precise-treat-315110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070786967774:android:7b84d7a6b3c597b370ea4f",
+        "android_client_info": {
+          "package_name": "bangkit.android.capstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070786967774-tntk140h7p3rgcbn3quvh4sam314m0j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bangkit.android.capstone",
+            "certificate_hash": "0c88362ba9d8f2b2da1efdd51a712c16ca35291d"
+          }
+        },
+        {
+          "client_id": "1070786967774-hqldme0fvhtkrv26s8lkmlhnvv7b995j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ZrBaQHDfXba3yWdVSKm7ec_gpIzEW-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070786967774-hqldme0fvhtkrv26s8lkmlhnvv7b995j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YesActivity"
+    android:background="@drawable/bg">
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:id="@+id/view1"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listhorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/view1"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/cardview_horizontal" />
+
+    <TextView
+        android:background="@color/light_gray_blue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_kondisi_kulitmu"
+        android:fontFamily="@font/winterthur_condensed"
+        android:layout_below="@id/listhorizontal"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green_blue"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>

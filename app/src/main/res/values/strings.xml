@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Facethetic</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="jenis_kulit">jenis kulit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Facewash">Facewash</string>
+    <string name="Toner">Toner</string>
+    <string name="Serum">Serum</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="komposisi">komposisi</string>
+    <string name="how_to_use">How to Use</string>
+    <string name="_1_basahi_wajah_dengan_air_hangat_tarik_rambut_anda_ke_belakang_dan_basahi_kulit_anda_dengan_banyak_air_hangat_n_2_gunakan_pembersih_pilihan_anda_gunakan_pembersih_berukuran_sepeser_pun_yang_sesuai_dengan_jenis_kulit_anda_n_3_eksfoliasi_kulit_anda_dengan_lembut_n_4_bilas_dan_tepuk_tepuk_hingga_kering_n_5_oleskan_toner_untuk_tampilan_yang_halus_n_6_akhiri_dengan_pelembab_n">1. Basahi wajah dengan air hangat. Tarik rambut Anda ke belakang dan basahi kulit Anda dengan banyak air hangat.\n 2. Gunakan pembersih pilihan Anda. Gunakan pembersih berukuran sepeser pun yang sesuai dengan jenis kulit Anda.\n 3. Eksfoliasi kulit Anda dengan lembut.\n 4. Bilas dan tepuk-tepuk hingga kering.\n 5. Oleskan toner untuk tampilan yang halus.\n 6. Akhiri dengan pelembab.\n</string>
+    <string name="komposisiii">Komposisi:</string>
+    <string name="ya">Sudah</string>
+    <string name="tidak">Belum</string>
+    <string name="question">Apakah kamu sudah mengetahui jenis kulit wajahmu ?</string>
+    <string name="take_picture">Let\'s Take a Picture</string>
+    <string name="memakaitoner">1. Bersihkan wajah terlebih dahulu. \n 2. Pastikan tangan dalam kondisi bersih. \n 3.Gunakan kapas atau langsung menepuk - nepuk toner ke wajah. </string>
+    <string name="memakaiserum">1. AMbil sedikit serum di telapak tangan dan aplikasikan ke seluruh wajah. \n 2. Gosokkan ke kulit dengan gerakan memutar. \n 3. Kemudian tepuk - tepuk kulit wajah aggar serum meresap lebih cepat.</string>
+    <string name="pilih_kondisi_kulitmu">Pilih Kondisi Kulitmu</string>
+    <string name="kulit">Kulit</string>
+
+
+</resources>
